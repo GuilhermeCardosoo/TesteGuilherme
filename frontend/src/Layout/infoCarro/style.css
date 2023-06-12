@@ -1,0 +1,18 @@
+#root > main > div > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#root > main > div > div > div > button{
+    margin: 5px;
+}
+
+#root > main > div > div > div > button:nth-child(2){
+    border: 2px solid red;
+}
+
+#root > main > div > div > div > button:nth-child(2):hover{
+    background-color: red;
+}
+

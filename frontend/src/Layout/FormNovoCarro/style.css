@@ -1,0 +1,30 @@
+button{
+    padding: 10px 10px;
+}
+
+#divButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:10px;
+}
+
+#divButton > button:nth-child(2){
+    border:2px solid greenyellow;
+}
+
+#divButton > button:nth-child(2):hover{
+    background-color: greenyellow;
+}
+
+input{
+    border-radius: 5px;
+    border: solid 1px black;
+    padding: 5px;
+    margin: 5px;
+}
+
+textarea{
+    width: 320px;
+    height: 100px;
+}

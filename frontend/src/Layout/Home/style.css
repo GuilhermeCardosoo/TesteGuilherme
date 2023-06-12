@@ -1,0 +1,58 @@
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+#mainDiv{
+    text-align: center;
+}
+
+button{
+    border: none;
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: 2px solid white;
+
+}
+
+button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+table{
+    padding: 5px;
+    border-radius:10px ;
+}
+
+th{
+    padding: 15px;
+}
+
+td{
+    padding: 15px;
+}
+
+thead{
+    background-color: bisque;
+}
+
+tbody{
+    background-color: azure;
+}
+
+a{
+    cursor: pointer;
+    color: blue;
+}
+
+a:hover{
+    cursor: pointer;
+    color: rgb(144, 144, 243);
+}
+
+
